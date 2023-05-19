@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+#header {
+  width: 100%;
+}
+#logotipo {
+  width: 12%;
+  display: grid;
+  position: absolute;
+  margin-top: -6%;
+  margin-left: 8%;
+}
+nav {
+  text-align: center;
+  font-family: "OpenSans-ExtraBold";
+  font-size: 1.8vh;
+  margin-top: -4%;
+  margin-left: 45%;
+}
+ul {
+  list-style-type: none;
+  font-size: larger;
+}
+li {
+  display: inline;
+  padding: 4%;
+}
