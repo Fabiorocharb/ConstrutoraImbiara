@@ -4,32 +4,64 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: OpenSans-ExtraBold;
-  src: url(../fonts/OpenSans-ExtraBold.ttf);
+  font-family: DMSans-Regular;
+  src: url(../fonts/DM_Sans/DMSans-Regular.ttf);
 }
-
-#header {
-  width: 100%;
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+#imagemprincipal {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../image/sonhodacasa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #logotipo {
-  width: 12%;
-  display: grid;
+  
   position: absolute;
-  margin-top: -6%;
-  margin-left: 8%;
+  width: 15%;
+  height: auto;
+  left: 12%;
+  top: 12%;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color:red;
+  opacity: 0.7;
+  cursor: pointer;
 }
 nav {
+  background-color: aqua;
+  width: 40%;
+  position: absolute;
   text-align: center;
-  font-family: "OpenSans-ExtraBold";
-  font-size: 1.8vh;
-  margin-top: -4%;
-  margin-left: 45%;
-}
-ul {
-  list-style-type: none;
-  font-size: larger;
+  top: 15%;
+  margin-left: 48%;
 }
 li {
+  
+  font-family: DMSans-Regular;
   display: inline;
-  padding: 4%;
+  padding: 3%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 21px;
+}
+hr {
+  width: 10%;
+}
+h1 {
+  background-color: aqua;
+  width: 50%;
+}
+main {
+  background-color: blueviolet;
+  width: 50%;
 }
