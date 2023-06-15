@@ -17,7 +17,7 @@
   background: url(../image/sonhodacasa.jpg) no-repeat center center;
   background-size: cover;
 }
-#logotipo { 
+#logotipo {
   position: absolute;
   width: 10%;
   left: 15%;
@@ -29,7 +29,7 @@ a {
   transition: 0.3s;
 }
 a:hover {
-  color:red;
+  color: red;
   opacity: 0.7;
   cursor: pointer;
 }
@@ -69,11 +69,11 @@ ul {
   margin: 8px;
 }
 
-h1{
+h1 {
   position: absolute;
   top: 30%;
   left: 15%;
-  font-family:Poppins-Regular;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 700;
   font-size: 39px;
@@ -111,7 +111,7 @@ h2 {
   text-align: left;
   top: 120%;
   left: 60%;
-  font-family:Poppins-Regular;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -124,7 +124,7 @@ h2 {
   text-align: left;
   top: 135%;
   left: 60%;
-  font-family:Poppins-Regular;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -132,56 +132,142 @@ h2 {
   color: #f6b800;
 }
 .segundo {
+  position: absolute;
+  width: 20%;
+  text-align: left;
+  top: 150%;
+  left: 60%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+.terceiro {
+  position: absolute;
+  width: 20%;
+  text-align: left;
+  top: 170%;
+  left: 60%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+article {
+  background-color: #dfaf1f;
+  width: 100%;
+  height: 100vh;
+}
+h3 {
+  position: relative;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  top: 10%;
+  left: 10%;
+  width: 20%;
+  color: black;
+}
+#produtos {
+  position: absolute;
+  width: 20%;
+  top: 225%;
+  left: 10%;
+  border-style: inset;
+  border-radius: 10%;
+  border-color: #292929;
+}
+#laje {
+  position: absolute;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  top: 260%;
+  left: 13%;
+}
+#btnlaje {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  padding: 0.5%;
+  left: 15%;
+  top: 265%;
+  border-radius: 5%;
+}
+#btnlaje:hover {
+  cursor: pointer;
+  background-color: green;
+}
+#produtos1 {
+  width: 20%;
+  position: absolute;
+  top: 225%;
+  left: 41%;
+  border-style: inset;
+  border-radius: 10%;
+  border-color: #292929;
+}
+#mega{
+  position: absolute;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  top: 260%;
+  left: 41.5%;
+}
+#btnmega {
     position: absolute;
-    width: 20%;
-    text-align: left;
-    top: 150%;
-    left: 60%;
-    font-family:Poppins-Regular;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #fff;
+    width: 10%;
+    height: auto;
+    padding: 0.5%;
+    left: 46%;
+    top: 265%;
+    border-radius: 5%;
   }
-  .terceiro {
-    position: absolute;
-    width: 20%;
-    text-align: left;
-    top: 170%;
-    left: 60%;
-    font-family:Poppins-Regular;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #fff;
+  #btnmega:hover {
+    cursor: pointer;
+    background-color: green;
   }
-  article {
-    background-color: #dfaf1f;
-    width: 100%;
-    height: 70vh;
-  }
-  h3 {
-    position: absolute;
-    font-family:Poppins-Regular;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    top: 205%;
-    left: 15%;
-    width: 20%;
-    color: black;
-  }
-  .produtos {
-    margin-left: 8%;
-    margin-top: 13%;
-    width: 22%;
-    height: 20%;
-   border-style: groove;
 
-    
-  }
+#produtos2 {
+  width: 20%;
+  position: absolute;
+  top: 225%;
+  left: 72%;
+  border-style: inset;
+  border-radius: 10%;
+  border-color: #292929;
+}
+#estrutura {
+  position: absolute;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  top: 260%;
+  left: 78%;
+}
+#btnestrutura {
+  position: absolute;
+    width: 10%;
+    height: auto;
+    padding: 0.5%;
+    left: 78%;
+    top: 265%;
+    border-radius: 5%;
+}
+#btnestrutura:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
 /*
 @media (max-width: 999px) {
   body {
