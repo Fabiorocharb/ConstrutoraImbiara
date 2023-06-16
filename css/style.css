@@ -213,7 +213,7 @@ h3 {
   border-radius: 10%;
   border-color: #292929;
 }
-#mega{
+#mega {
   position: absolute;
   font-family: Poppins-Regular;
   font-style: normal;
@@ -223,18 +223,18 @@ h3 {
   left: 41.5%;
 }
 #btnmega {
-    position: absolute;
-    width: 10%;
-    height: auto;
-    padding: 0.5%;
-    left: 46%;
-    top: 265%;
-    border-radius: 5%;
-  }
-  #btnmega:hover {
-    cursor: pointer;
-    background-color: green;
-  }
+  position: absolute;
+  width: 10%;
+  height: auto;
+  padding: 0.5%;
+  left: 46%;
+  top: 265%;
+  border-radius: 5%;
+}
+#btnmega:hover {
+  cursor: pointer;
+  background-color: green;
+}
 
 #produtos2 {
   width: 20%;
@@ -256,12 +256,12 @@ h3 {
 }
 #btnestrutura {
   position: absolute;
-    width: 10%;
-    height: auto;
-    padding: 0.5%;
-    left: 78%;
-    top: 265%;
-    border-radius: 5%;
+  width: 10%;
+  height: auto;
+  padding: 0.5%;
+  left: 78%;
+  top: 265%;
+  border-radius: 5%;
 }
 #btnestrutura:hover {
   cursor: pointer;
@@ -287,7 +287,7 @@ h4 {
   height: 5%;
 }
 
-.quadros{
+.quadros {
   position: relative;
   width: 352px;
   height: 352px;
@@ -297,7 +297,6 @@ h4 {
   border-color: #dfaf1f;
   border-radius: 3%;
   box-shadow: 0px 0px 12px rgba(71, 20, 20, 0.08);
-
 }
 .helmet {
   width: 50%;
@@ -340,7 +339,7 @@ h5 {
   margin-left: 10%;
   width: 24%;
 }
-#whatsapfinal{
+#whatsapfinal {
   position: absolute;
   margin-left: 10%;
   margin-top: 19%;
@@ -431,3 +430,570 @@ footer {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }*/
+@media screen and (max-width: 1536px) and (min-width: 864px) {
+  #logotipo {
+    width: 14%;
+  }
+  h2 {
+    top: 108%;
+  }
+  .primeiro {
+    width: 23%;
+    top: 125%;
+  }
+  .segundo {
+    width: 25%;
+    top: 140%;
+  }
+  .terceiro {
+    width: 20%;
+    top: 160%;
+  }
+  h3 {
+    top: 10%;
+    width: 21%;
+  }
+  #produtos {
+    top: 210%;
+  }
+  #laje {
+    top: 240%;
+    left: 11%;
+  }
+  #btnlaje {
+    left: 14%;
+    top: 250%;
+  }
+  #produtos1 {
+    top: 210%;
+    left: 41%;
+  }
+  #mega {
+    text-align: center;
+    width: 19%;
+    top: 240%;
+    left: 41%;
+  }
+  #btnmega {
+    left: 46%;
+    top: 250%;
+  }
+  #produtos2 {
+    top: 210%;
+  }
+  #estrutura {
+    top: 240%;
+    left: 76%;
+  }
+  #btnestrutura {
+    left: 77%;
+    top: 250%;
+  }
+  h4 {
+    margin-left: 11%;
+    margin-top: 5%;
+    width: 24%;
+  }
+  h5 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 22%;
+    height: 5%;
+  }
+  #whatsapfinal {
+    margin-top: 21%;
+  }
+  #construtor {
+    width: 46.5%;
+  }
+  #logofinal {
+    width: 11%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  #icones {
+    margin-top: 2%;
+    width: 30%;
+  }
+  .icones {
+    width: 6%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 900px) {
+  #imagemprincipal {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/sonhodacasa.jpg) no-repeat;
+    background-size: cover;
+  }
+  #logotipo {
+    width: 13%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    top: 105%;
+    font-size: 32px;
+  }
+  .primeiro {
+    width: 25%;
+    top: 120%;
+  }
+  .segundo {
+    width: 26%;
+    top: 135%;
+  }
+  .terceiro {
+    width: 27%;
+    top: 155%;
+  }
+  h3 {
+    top: 10%;
+    width: 22%;
+  }
+  #produtos {
+    top: 205%;
+    left: 10%;
+  }
+  #laje {
+    top: 232%;
+    left: 10.5%;
+  }
+  #btnlaje {
+    left: 14%;
+    top: 240%;
+  }
+  #produtos1 {
+    top: 205%;
+    left: 41%;
+  }
+  #mega {
+    top: 232%;
+    left: 41%;
+  }
+  #btnmega {
+    left: 46%;
+    top: 240%;
+  }
+  #produtos2 {
+    top: 205%;
+  }
+  #estrutura {
+    top: 232%;
+    left: 76%;
+  }
+  #btnestrutura {
+    top: 240%;
+  }
+  h4 {
+    margin-left: 6.5%;
+    width: 25%;
+  }
+  h5 {
+    position: absolute;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 19%;
+    height: 5%;
+  }
+  #equipe {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10%;
+    width: 24%;
+  }
+  #whatsapfinal {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 19%;
+    width: 4%;
+  }
+  #construtor {
+    margin-left: 45%;
+    width: 40%;
+  }
+  footer {
+    background-color: #59814e;
+    width: 100%;
+    height: 30vh;
+  }
+  #logofinal {
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  .direitos {
+    font-family: DMSans-Regular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-left: 10%;
+    margin-top: 1.5%;
+  }
+  #icones {
+    margin-left: 9%;
+    margin-top: 1.5%;
+    width: 30%;
+  }
+  .icones {
+    width: 5%;
+    margin-left: 5%;
+  }
+  h5 {
+    width: 24%;
+  }
+  #equipe {
+    width: 30%;
+  }
+  #whatsapfinal {
+    margin-top: 22%;
+  }
+  #construtor {
+    width: 51.8%;
+  }
+  #logofinal {
+    width: 12%;
+  }
+  #icones {
+    margin-top: 2%;
+    width: 32%;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+  #imagemprincipal {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/sonhodacasa.jpg) no-repeat;
+    background-size: cover;
+  }
+  #logotipo {
+    width: 13%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    width: 30%;
+    top: 105%;
+    font-size: 32px;
+  }
+  .primeiro {
+    width: 25%;
+    top: 120%;
+  }
+  .segundo {
+    width: 26%;
+    top: 140%;
+  }
+  .terceiro {
+    width: 27%;
+    top: 162%;
+  }
+  h3 {
+    top: 10%;
+    width: 23%;
+  }
+  #produtos {
+    top: 210%;
+    left: 10%;
+  }
+  #laje {
+    top: 240%;
+    left: 10.5%;
+  }
+  #btnlaje {
+    left: 14%;
+    top: 250%;
+  }
+  #produtos1 {
+    top: 210%;
+    left: 41%;
+  }
+  #mega {
+    top: 240%;
+    left: 41%;
+  }
+  #btnmega {
+    left: 46%;
+    top: 250%;
+  }
+  #produtos2 {
+    top: 210%;
+  }
+  #estrutura {
+    top: 240%;
+    left: 76%;
+  }
+  #btnestrutura {
+    top: 250%;
+  }
+  h4 {
+    width: 26%;
+  }
+  h5 {
+    width: 25%;
+  }
+  #equipe {
+    margin-top: 11%;
+  }
+  #whatsapfinal {
+    margin-top: 24%;
+  }
+  #construtor {
+    margin-left: 45%;
+    width: 46.7%;
+  }
+  #logofinal {
+    width: 12%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+}
+/*preciso corrigir*/
+@media screen and (max-width: 1280px) and (min-width: 950px) {
+  #logotipo {
+    width: 14%;
+  }
+  main {
+    width: 100%;
+    height: 69vh;
+  }
+  #eletrica {
+    width: 80%;
+  }
+  h2 {
+    width: 30%;
+    top: 105%;
+    font-size: 26px;
+  }
+  .primeiro {
+    width: 28%;
+    top: 120%;
+  }
+  .segundo {
+    width: 28%;
+    top: 135%;
+  }
+  .terceiro {
+    width: 30%;
+    top: 153%;
+  }
+  h3 {
+    top: 10%;
+    width: 25%;
+  }
+  article {
+    width: 100%;
+    height: 69vh;
+  }
+  #produtos {
+    top: 190%;
+    left: 10%;
+  }
+  #laje {
+    top: 213%;
+    left: 10.5%;
+  }
+  #btnlaje {
+    left: 14%;
+    top: 220%;
+  }
+  #produtos1 {
+    top: 190%;
+    left: 41%;
+  }
+  #mega {
+    top: 213%;
+    left: 41%;
+  }
+  #btnmega {
+    left: 46%;
+    top: 220%;
+  }
+  #produtos2 {
+    top: 190%;
+  }
+  #estrutura {
+    top: 213%;
+    left: 76%;
+  }
+  #btnestrutura {
+    top: 220%;
+  }
+  aside {
+    width: 100%;
+    height: 80vh;
+  }
+  h4 {
+    width: 28%;
+  }
+  h5 {
+    width: 26%;
+  }
+  #equipe {
+    margin-top: 11%;
+  }
+  #whatsapfinal {
+    margin-top: 24%;
+  }
+  #construtor {
+    margin-left: 45%;
+    width: 61.5%;
+  }
+  #logofinal {
+    width: 13%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 1280px)and (min-width: 800px){
+  #imagemprincipal {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/sonhodacasa.jpg) no-repeat;
+    background-size: cover;
+  }
+  #logotipo {
+    width: 14%;
+  }
+  main {
+    width: 100%;
+    height: 77.5vh;
+  }
+  #eletrica {
+    width: 52%;
+  }
+  h2 {
+    width: 30%;
+    top: 110%;
+    font-size: 26px;
+  }
+  .primeiro {
+    width: 28%;
+    top: 125%;
+  }
+  .segundo {
+    width: 28%;
+    top: 140%;
+  }
+  .terceiro {
+    width: 30%;
+    top: 160%;
+  }
+  h3 {
+    top: 10%;
+    width: 25%;
+  }
+  article {
+    width: 100%;
+    height: 80vh;
+  }
+  #produtos {
+    top: 205%;
+    left: 10%;
+  }
+  #laje {
+    top: 232%;
+    left: 10.5%;
+  }
+  #btnlaje {
+    left: 14%;
+    top: 240%;
+  }
+  #produtos1 {
+    top: 205%;
+    left: 41%;
+  }
+  #mega {
+    top: 232%;
+    left: 41%;
+  }
+  #btnmega {
+    left: 46%;
+    top: 240%;
+  }
+  #produtos2 {
+    top: 205%;
+  }
+  #estrutura {
+    top: 232%;
+    left: 76%;
+  }
+  #btnestrutura {
+    top: 240%;
+  }
+  aside {
+    width: 100%;
+    height: 80vh;
+  }
+  h4 {
+    width: 28%;
+  }
+  h5 {
+    width: 26%;
+  }
+  #equipe {
+    margin-top: 11%;
+  }
+  #whatsapfinal {
+    margin-top: 24%;
+  }
+  #construtor {
+    margin-left: 45%;
+    width: 61.5%;
+  }
+  #logofinal {
+    width: 13%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  aside {
+    width: 100%;
+    height: 80vh;
+  }
+  h4 {
+    margin-left: 11%;
+    width: 28%;
+  }
+  .quadros {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+  }
+  h5 {
+    margin-top: 5%;
+    width: 26%;
+  }
+  #equipe {
+    margin-top: 12%;
+  }
+  #whatsapfinal{
+    margin-top: 25%;
+    width: 4%;
+  }
+  #construtor {
+    margin-left: 45%;
+    width: 52%;
+  }
+  #logofinal {
+    width: 12%;
+  }
+  .direitos {
+    margin-top: 2%;
+  }
+}
+/*preciso corrigir*/
+
