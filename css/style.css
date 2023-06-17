@@ -858,7 +858,7 @@ footer {
     margin-top: 2%;
   }
 }
-@media screen and (max-width: 1280px)and (min-width: 800px){
+@media screen and (max-width: 1280px) and (min-width: 800px){
   #imagemprincipal {
     width: 100%;
     height: 100vh;
@@ -996,4 +996,459 @@ footer {
   }
 }
 /*preciso corrigir*/
-
+/*Primeiro mobile não editei*/
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+  #imagemprincipal {
+    background: url(../image/sonhodacasa.jpg) no-repeat;
+    background-size: cover;
+  }
+  #logotipo {
+    left: 5%;
+  }
+  nav {
+    margin-left: 37%;
+  }
+  ul {
+    font-size: 15px;
+  }
+  h1 {
+    left: 5%;
+  }
+  #construir {
+    left: 5.5%;
+  }
+  #whatsapinicio {
+    width: 20%;
+    left: 5%;
+  }
+  #eletrica {
+    width: 58%;
+  }
+  main {
+    width: 100%;
+    height: 69vh;
+  }
+  h2 {
+    width: 25%;
+    top: 105%;
+    left: 65%;
+    font-size: 23px;
+  }
+  .primeiro {
+    width: 29%;
+    top: 120%;
+    left: 65%;
+    font-size: 15px;
+  }
+  .segundo {
+    width: 30%;
+    top: 135%;
+    left: 65%;
+    font-size: 15px;
+  }
+  .terceiro {
+    width: 29%;
+    text-align: left;
+    top: 155%;
+    left: 65%;
+    font-size: 15px;
+  }
+  article {
+    width: 100%;
+    height: 70vh;
+  }
+  h3 {
+    font-size: 23px;
+    top: 10%;
+    left: 5%;
+    width: 23%;
+  }
+  #produtos {
+    top: 190%;
+  }
+  #laje {
+    font-size: 15px;
+    top: 213%;
+    left: 10%;
+  }
+  #btnlaje {
+    top: 220%;
+  }
+  #produtos1 {
+    top: 190%;
+  }
+  #mega {
+    font-size: 15px;
+    top: 213%;
+  }
+  #btnmega {
+    top: 220%;
+  }
+  #produtos2 {
+    top: 190%;
+  }
+  #estrutura {
+    font-size: 15px;
+    top: 213%;
+    left: 75%;
+  }
+  #btnestrutura {
+    left: 78%;
+    top: 220%;
+  }
+  aside {
+    width: 100%;
+    height: 80vh;
+  }
+  h4 {
+    font-size: 23px;
+    margin-left: 5%;
+    width: 25%;
+  }
+  .quadros {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    top: 250px;
+  }
+  h5 {
+    font-size: 23px;
+    margin-left: 5%;
+    width: 25%;
+  }
+  #equipe {
+    margin-left: 5%;
+    font-size: 18px;
+    width: 35%;
+  }
+  #whatsapfinal {
+    margin-left: 5%;
+    margin-top: 28%;
+    width: 5%;
+  }
+  #construtor {
+    margin-left: 35%;
+    width: 65%;
+  }
+  #logofinal {
+    width: 14%;
+    margin-left: 5%;
+  }
+  .direitos {
+    margin-left: 5%;
+  }
+  #icones {
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 45%;
+  }
+}
+/*Primeiro mobile não editei*/
+@media screen and (min-width: 412px) and (max-width: 846px) {
+  #logotipo {
+    width: 35%;
+    left: 6%;
+    top: 5%;
+  }
+  nav {
+    display: none;
+  }
+  h1 {
+    top: 18%;
+    left: 1%;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  #construir {
+    top: 73%;
+    left: 9%;
+    font-size: 22px;
+    text-align: center;
+  }
+  #whatsapinicio {
+    top: 81%;
+    color: #fff;
+    width: 50%;
+    height: auto;
+    left: 25%;
+  }
+  #eletrica {
+    width: 50%;
+  }
+  main {
+    background-color: #292929;
+  }
+  h2 {
+    position: absolute;
+    width: 23%;
+    text-align: left;
+    top: 120%;
+    left: 60%;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    color: #fff;
+  }
+  .primeiro {
+    position: absolute;
+    width: 19%;
+    text-align: left;
+    top: 135%;
+    left: 60%;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #f6b800;
+  }
+  .segundo {
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    top: 150%;
+    left: 60%;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+  }
+  .terceiro {
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    top: 170%;
+    left: 60%;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+  }
+  article {
+    background-color: #dfaf1f;
+    width: 100%;
+    height: 100vh;
+  }
+  h3 {
+    position: relative;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    top: 10%;
+    left: 10%;
+    width: 20%;
+    color: black;
+  }
+  #produtos {
+    position: absolute;
+    width: 20%;
+    top: 225%;
+    left: 10%;
+    border-style: inset;
+    border-radius: 10%;
+    border-color: #292929;
+  }
+  #laje {
+    position: absolute;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    top: 260%;
+    left: 13%;
+  }
+  #btnlaje {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    padding: 0.5%;
+    left: 15%;
+    top: 265%;
+    border-radius: 5%;
+  }
+  #btnlaje:hover {
+    cursor: pointer;
+    background-color: green;
+  }
+  #produtos1 {
+    width: 20%;
+    position: absolute;
+    top: 225%;
+    left: 41%;
+    border-style: inset;
+    border-radius: 10%;
+    border-color: #292929;
+  }
+  #mega {
+    position: absolute;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    top: 260%;
+    left: 41.5%;
+  }
+  #btnmega {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    padding: 0.5%;
+    left: 46%;
+    top: 265%;
+    border-radius: 5%;
+  }
+  #btnmega:hover {
+    cursor: pointer;
+    background-color: green;
+  }
+  
+  #produtos2 {
+    width: 20%;
+    position: absolute;
+    top: 225%;
+    left: 72%;
+    border-style: inset;
+    border-radius: 10%;
+    border-color: #292929;
+  }
+  #estrutura {
+    position: absolute;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    top: 260%;
+    left: 78%;
+  }
+  #btnestrutura {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    padding: 0.5%;
+    left: 78%;
+    top: 265%;
+    border-radius: 5%;
+  }
+  #btnestrutura:hover {
+    cursor: pointer;
+    background-color: green;
+  }
+  aside {
+    width: 100%;
+    height: 100vh;
+  }
+  #aside {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h4 {
+    position: absolute;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 11%;
+    margin-top: 5%;
+    width: 19%;
+    height: 5%;
+  }
+  
+  .quadros {
+    position: relative;
+    width: 352px;
+    height: 352px;
+    top: 300px;
+    background: #f9f9f9;
+    border-style: inset;
+    border-color: #dfaf1f;
+    border-radius: 3%;
+    box-shadow: 0px 0px 12px rgba(71, 20, 20, 0.08);
+  }
+  .helmet {
+    width: 50%;
+    height: auto;
+    margin-left: 26%;
+    margin-top: 10%;
+  }
+  .start {
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+  }
+  #penultimo {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 58vh;
+  }
+  h5 {
+    position: absolute;
+    font-family: Poppins-Regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 19%;
+    height: 5%;
+  }
+  #equipe {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: DMSans-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 10%;
+    width: 24%;
+  }
+  #whatsapfinal {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 19%;
+    width: 4%;
+  }
+  #construtor {
+    margin-left: 45%;
+    width: 40%;
+  }
+  footer {
+    background-color: #59814e;
+    width: 100%;
+    height: 30vh;
+  }
+  #logofinal {
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  .direitos {
+    font-family: DMSans-Regular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-left: 10%;
+    margin-top: 1.5%;
+  }
+  #icones {
+    margin-left: 9%;
+    margin-top: 1.5%;
+    width: 30%;
+  }
+  .icones {
+    width: 5%;
+    margin-left: 5%;
+  }
+}
