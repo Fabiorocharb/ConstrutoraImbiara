@@ -430,6 +430,7 @@ footer {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }*/
+
 @media screen and (max-width: 1536px) and (min-width: 864px) {
   #logotipo {
     width: 14%;
@@ -1729,6 +1730,210 @@ footer {
     margin-top: 5%;
   }
   .direitos {
+    margin-left: 6%;
+    margin-top: 3%;
+  }
+  #icones {
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 80%;
+  }
+  .icones {
+    width: 8%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #logotipo {
+    width: 35%;
+    left: 6%;
+    top: 5%;
+  }
+  nav {
+    display: none;
+  }
+  h1 {
+    top: 18%;
+    left: 12%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  #construir {
+    top: 73%;
+    left: 14%;
+    font-size: 15px;
+    text-align: center;
+  }
+  #whatsapinicio {
+    top: 86%;
+    color: #fff;
+    width: 50%;
+    height: auto;
+    left: 25%;
+  }
+  #eletrica {
+    width: 100%;
+    height: auto;
+  }
+  main {
+    background-color: #292929;
+    width: 100%;
+    height: 148vh;
+  }
+  h2 {
+    width: 90%;
+    top: 165%;
+    left: 5%;
+    font-size: 22px;
+    text-align: left;
+  }
+  .primeiro {
+    width: 90%;
+    text-align: left;
+    top: 185%;
+    left: 5%;
+    font-size: 15px;
+  }
+  .segundo {
+    width: 90%;
+    text-align: left;
+    top: 205%;
+    left: 5%;
+    font-size: 12px;
+  }
+  .terceiro {
+    width: 90%;
+    text-align: left;
+    top: 232%;
+    left: 5%;
+    font-size: 12px;
+  }
+  article {
+    background-color: #dfaf1f;
+    width: 100%;
+    height: 200vh;
+  }
+  h3 {
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
+  }
+  #produtos {
+    width: 80%;
+    top: 265%;
+    left: 10%;
+  }
+  #laje {
+    font-size: 17px;
+    top: 308%;
+    left: 14%;
+  }
+  #btnlaje {
+    width: 70%;
+    padding: 2%;
+    left: 15%;
+    top: 315%;
+    border-radius: 5%;
+  }
+  #produtos1 {
+    width: 80%;
+    top: 325%;
+    left: 10%;
+  }
+  #mega {
+    font-size: 13px;
+    top: 369%;
+    left: 11%;
+  }
+  #btnmega {
+    width: 70%;
+    padding: 2%;
+    left: 15%;
+    top: 375%;
+  }
+  #produtos2 {
+    width: 80%;
+    top: 386%;
+    left: 10%;
+  }
+  #estrutura {
+    font-size: 17px;
+    top: 430%;
+    left: 16%;
+  }
+  #btnestrutura {
+    width: 70%;
+    padding: 2%;
+    left: 15%;
+    top: 438%;
+    border-radius: 5%;
+  }
+  aside {
+    width: 100%;
+    height: 193vh;
+  }
+  #aside {
+    display: flex;
+    flex-direction: column;
+  }
+  h4 {
+    font-size: 22px;
+    margin-left: 5%;
+    width: 95%;
+    margin-top: 8%;
+    text-align: center;
+  }
+  .quadros {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 110px;
+    left: 11%;
+    margin-bottom: 20px; 
+  }
+  #penultimo {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 87vh;
+  }
+  h5 {
+    margin-left: 5%;
+    margin-top: 8%;
+    font-size: 22px;
+    width: 90%;
+  }
+  #equipe {
+    margin-left: 5%;
+    margin-top: 23%;
+    font-size: 16px;
+    width: 90%;
+  }
+  #whatsapfinal {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 70%;
+    width: 15%;
+  }
+  #construtor {
+    margin-left: 16%;
+    width: 84%;
+    margin-top: 70%;
+    transform: scaleX(-1);
+  }
+  footer {
+    background-color: #59814e;
+    width: 100%;
+    height: 40vh;
+  }
+  #logofinal {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .direitos {
+    font-size: 15px;
     margin-left: 6%;
     margin-top: 3%;
   }
