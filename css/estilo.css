@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: DMSans-Regular;
+  src: url(../fonts/DM_Sans/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+#imagemprincipal {
+  width: 100%;
+  height: 100vh;
+  background: url(../image/sonhodacasa.jpg) no-repeat center center;
+  background-size: cover;
+}
+#logotipo {
+  position: absolute;
+  width: 32%;
+  top: 5%;
+  left: 5%;
+}
+nav {
+  display: none;
+}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+}
+#construir {
+  position: absolute;
+  top: 75%;
+  left: 9%;
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #fff;
+  text-align: center;
+}
+#whatsapinicio {
+  position: absolute;
+  top: 87%;
+  width: 40%;
+  height: auto;
+  left: 29%;
+}
+#eletrica {
+  width: 100%;
+  height: auto;
+}
+main {
+  display: grid;
+  background-color: #292929;
+}
+h2 {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 80%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+.primeiro {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 90%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #f6b800;
+
+}
+.segundo {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 90%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #fff;
+}
+.terceiro {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 90%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #fff;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: #dfaf1f;
+  width: 100%;
+}
+h3 {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 90%;
+  color: black;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#produtos {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 70%;
+  border-style: inset;
+  border-radius: 10%;
+  border-color: #292929;
+}
+#laje {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+#btnlaje {
+  width: 65%;
+  height: auto;
+  padding: 0.5%;
+  border-radius: 5%;
+  margin-left: 16%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#btnlaje:hover {
+  cursor: pointer;
+  background-color: green;
+}
+#produtos1 {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  border-style: inset;
+  border-radius: 10%;
+  border-color: #292929;
+}
+#mega {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  margin-left: 18%;
+  margin-top: 2%;
+  width: 70%;
+}
+#btnmega {
+  width: 65%;
+  height: auto;
+  padding: 0.5%;
+  border-radius: 5%;
+  margin-left: 16%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#btnmega:hover {
+  cursor: pointer;
+  background-color: green;
+}
+#produtos2 {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  border-style: inset;
+  border-radius: 10%;
+  border-color: #292929;
+}
+#estrutura {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+#btnestrutura {
+  width: 65%;
+  height: auto;
+  padding: 0.5%;
+  border-radius: 5%;
+  margin-left: 16%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#btnestrutura:hover {
+  cursor: pointer;
+  background-color: green;
+}
+aside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ background-color: #fff;
+}
+h4 {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 5%;
+}
+.quadros {
+  width: 220px;
+  height: 220px;
+  background: #f9f9f9;
+  border-style: inset;
+  border-color: #dfaf1f;
+  border-radius: 3%;
+  box-shadow: 0px 0px 12px rgba(71, 20, 20, 0.08);
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+.helmet {
+  width: 50%;
+  height: auto;
+  margin-left: 26%;
+  margin-top: 10%;
+}
+.start {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+}
+#penultimo {
+  background-color: #e8e8e8;
+  width: 100%;
+}
+h5 {
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+#equipe {
+  font-family: DMSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-left: 5%;
+}
+#whatsapfinal {
+  margin-left: 5%;
+  width: 18%;
+}
+#construtor {
+  margin-left: 45%;
+  margin-top: -18%;
+  width: 28%;
+  height: auto;
+}
+footer {
+  background-color: #59814e;
+  width: 100%;
+  height: 30vh;
+}
+#logofinal {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.direitos {
+  font-family: DMSans-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 5%;
+  margin-top: 1.5%;
+}
+#icones {
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 95%;
+}
+.icones {
+  width: 7%;
+  margin-left: 5%;
+  margin-top: 2%;
+
+}
+@media (min-width: 360px) {
+  h1 {
+    left: 13%;
+    top: 22%;
+  }
+  #construir {
+    left: 13%;
+    top: 72%;
+  }
+  #whatsapinicio {
+    top: 81%;
+  }
+  .primeiro {
+    width: 80%;
+  }
+  #equipe {
+    margin-top: 5%;
+  }
+  h5 {
+  }
+  #whatsapfinal {
+    margin-top: 5%;
+  }
+  #construtor {
+    max-width: 100%;
+    max-height: auto;
+    margin-left: 45%;
+  }
+}
+@media (min-width: 375px) {
+  #construtor {
+    max-width: 41%;
+  }
+}
+@media (min-width: 390px) {
+  #construtor {
+    max-width: 42%;
+  }
+  .primeiro {
+    width: 80%;
+  }
+}
+@media (min-width: 414px) {
+  h1 {
+    left: 18%;
+  }
+  #construir {
+    left: 18%;
+  }
+  #construtor {
+    max-width: 43.5%;
+  }
+}
+@media (min-width: 768px) {
+
+  #logotipo {
+    width: 20%;
+  }
+  h1 {
+    top: 22%;
+    left: 23%;
+    font-size: 34px;
+    line-height: 43px;
+  }
+  #construir {
+    top: 80%;
+    left: 27%;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  #whatsapinicio {
+    top: 87%;
+    width: 30%;
+    left: 35%;
+  }
+  h2 {
+    width: 60%;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .primeiro {
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .segundo {
+    width: 70%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .terceiro {
+    width: 70%;
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-left: 5%;
+  }
+  #produtos {
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 30%;
+  }
+  #laje {
+    font-size: 15px;
+    margin-left: 2%;
+  }
+  #btnlaje {
+    position: absolute;
+    width: 28%;
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+  #produtos1 {
+    position: absolute;
+    width: 30%;
+    margin-left: 36%;
+    margin-top: -29%;
+  }
+  #mega {
+    margin-left: 38%;
+    margin-top: -3%;
+    font-size: 14px;
+    width: 32%;
+  }
+  #btnmega {
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 2.6%;
+    margin-bottom: 3%;
+  }
+  #produtos2 {
+    position: absolute;
+    width: 30%;
+    margin-left: 4%;
+    margin-top: -31.5%;
+  }
+  #estrutura {
+    font-size: 14px;
+    margin-left: 70%;
+    margin-top: -14%;
+  }
+  #btnestrutura {
+    width: 30%;
+    margin-left: 68%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+  }
+  h4 {
+    position: absolute;
+    font-size: 28px;
+    left: 5%;
+    top: 249%;
+  }
+  .quadros {
+    margin-top: 20%;
+  }
+  h5 {
+    font-size: 28px;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  #equipe {
+    font-size: 20px;
+    line-height: 28px;
+    width: 50%;
+  }
+  #whatsapfinal {
+    width: 10%;
+  }
+  #logofinal {
+    width: 25%;
+  }
+  .direitos {
+    font-size: 17px;
+  }
+  #icones {
+    width: 50%;
+  }
+  .icones {
+    width: 8%;
+    margin-left: 6%;
+  }
+}
