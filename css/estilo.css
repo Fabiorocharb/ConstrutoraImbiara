@@ -40,7 +40,7 @@ h1 {
 }
 #construir {
   position: absolute;
-  top: 75%;
+  top: 79%;
   left: 9%;
   font-family: DMSans-Regular;
   font-style: normal;
@@ -52,7 +52,7 @@ h1 {
 }
 #whatsapinicio {
   position: absolute;
-  top: 87%;
+  top: 90%;
   width: 40%;
   height: auto;
   left: 29%;
@@ -319,10 +319,10 @@ footer {
   }
   #construir {
     left: 13%;
-    top: 72%;
+    top: 82%;
   }
   #whatsapinicio {
-    top: 81%;
+    top: 92%;
   }
   .primeiro {
     width: 80%;
@@ -342,11 +342,23 @@ footer {
   }
 }
 @media (min-width: 375px) {
+  #construir {
+    top: 84%;
+  }
+  #whatsapinicio {
+    top: 92%;
+  }
   #construtor {
     max-width: 41%;
   }
 }
 @media (min-width: 390px) {
+  #construir {
+    top: 84%;
+  }
+  #whatsapinicio {
+    top: 92%;
+  }
   #construtor {
     max-width: 42%;
   }
@@ -358,7 +370,11 @@ footer {
   h1 {
     left: 18%;
   }
+  #whatsapinicio {
+    top: 92%;
+  }
   #construir {
+    top: 84%;
     left: 18%;
   }
   #construtor {
