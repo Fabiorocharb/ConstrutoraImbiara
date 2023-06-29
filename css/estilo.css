@@ -86,7 +86,6 @@ h2 {
   font-size: 15px;
   line-height: 28px;
   color: #f6b800;
-
 }
 .segundo {
   margin-top: 3%;
@@ -219,7 +218,7 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: center;
- background-color: #fff;
+  background-color: #fff;
 }
 h4 {
   font-family: Poppins-Regular;
@@ -310,8 +309,8 @@ footer {
   width: 7%;
   margin-left: 5%;
   margin-top: 2%;
-
 }
+
 @media (min-width: 360px) {
   h1 {
     left: 13%;
@@ -330,8 +329,7 @@ footer {
   #equipe {
     margin-top: 5%;
   }
-  h5 {
-  }
+
   #whatsapfinal {
     margin-top: 5%;
   }
@@ -382,7 +380,6 @@ footer {
   }
 }
 @media (min-width: 768px) {
-
   #logotipo {
     width: 20%;
   }
@@ -472,7 +469,7 @@ footer {
   }
   #btnestrutura {
     width: 30%;
-    margin-left: 68%;
+    margin-left: 70%;
     margin-top: 5%;
     margin-bottom: 3%;
   }
@@ -581,240 +578,165 @@ footer {
     left: 5%;
     font-size: 22px;
     line-height: 23px;
-    text-align: left; 
+    text-align: left;
   }
   #whatsapinicio {
     top: 55%;
     width: 20%;
     left: 5%;
   }
- 
-#eletrica {
-  width: 50%;
-}
-main {
-  background-color: #292929;
-  width: 100%;
-
-}
-h2 {
-  position: absolute;
-  width: 30%;
-  text-align: left;
-  top: 102%;
-  left: 50%;
-  font-size: 32px;
-  line-height: 45px;
-}
-.primeiro {
-  position: absolute;
-  width: 32%;
-  text-align: left;
-  top: 117%;
-  left: 50%;
-  font-size: 20px;
-  line-height: 30px;
-}
-.segundo {
-  position: absolute;
-  width: 32%;
-  text-align: left;
-  top: 132%;
-  left: 50%;
-  font-size: 18px;
-  line-height: 30px;
-}
-.terceiro {
-  position: absolute;
-  width: 32%;
-  text-align: left;
-  top: 150%;
-  left: 50%;
-  font-size: 18px;
-  line-height: 30px;
-}
-article {
-  background-color: #dfaf1f;
-  width: 100%;
-  height: 70vh;
-}
-h3 {
+  #eletrica {
+    width: 50%;
+  }
+  main {
+    background-color: #292929;
+    width: 100%;
+  }
+  h2 {
+    position: absolute;
+    width: 30%;
+    text-align: left;
+    top: 102%;
+    left: 50%;
     font-size: 32px;
-    top: 5%;
+    line-height: 45px;
+  }
+  .primeiro {
+    position: absolute;
+    width: 32%;
+    text-align: left;
+    top: 117%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .segundo {
+    position: absolute;
+    width: 32%;
+    text-align: left;
+    top: 132%;
+    left: 50%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .terceiro {
+    position: absolute;
+    width: 32%;
+    text-align: left;
+    top: 150%;
+    left: 50%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 32px;
+
     left: 5%;
-    width: 25%;
+    width: 29%;
+  }
+  article {
+    width: 100%;
+    height: 80vh;
   }
   #flexbox {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
-#laje {
-    font-size: 19px;
-    margin-left: 8%;
+  #produtos {
+    position: absolute;
+    width: 25%;
+    top: 180%;
+    left: 5%;
   }
-#btnlaje {
-    width: 13%;
-    margin-left: 10%;
-    top: 230%;
+  #laje {
+    position: absolute;
+    font-size: 18px;
+    top: 210%;
+    left: 7%;
   }
-  
-#produtos1 {
-  top: 239%;
+  #btnlaje {
+    position: absolute;
+    width: 17%;
+    left: 8%;
+    top: 215%;
+  }
+  #produtos1 {
+    width: 25%;
+    position: absolute;
+    top: 223%;
+    left: 2%;
   }
   #mega {
-    font-size: 19px;
-    margin-left: 36%;
-    top: 270%;
-    
+    position: absolute;
+    font-size: 18px;
+    top: 216%;
+    left: 1%;
+    width: 20%;
   }
   #btnmega {
     position: absolute;
-    width: 10%;
-    height: auto;
-    padding: 0.5%;
-    left: 46%;
-    top: 265%;
-    border-radius: 5%;
+    width: 17%;
+    left: 4%;
+    top: 218.5%;
   }
-/*
   #produtos2 {
-    width: 20%;
-    position: absolute;
-    top: 225%;
-    left: 72%;
-    border-style: inset;
-    border-radius: 10%;
-    border-color: #292929;
+    width: 25%;
+    top: 227%;
+    left: 65%;
   }
   #estrutura {
     position: absolute;
-    font-family: Poppins-Regular;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 19px;
-    top: 260%;
-    left: 78%;
+    font-size: 18px;
+    top: 232%;
+    left: 1%;
   }
   #btnestrutura {
     position: absolute;
-    width: 10%;
-    height: auto;
-    padding: 0.5%;
-    left: 78%;
-    top: 265%;
-    border-radius: 5%;
-  }
- */
-  aside {
-    width: 100%;
-    height: 100vh;
-  }
-  #aside {
-    display: flex;
-    justify-content: space-evenly;
+    left: 3%;
+    top: 215.5%;
+    width: 17%;
   }
   h4 {
-    position: absolute;
-    font-family: Poppins-Regular;
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
-    margin-left: 11%;
     margin-top: 5%;
-    width: 19%;
-    height: 5%;
+    width: 29%;
   }
-  
   .quadros {
-    position: relative;
-    width: 352px;
-    height: 352px;
-    top: 300px;
-    background: #f9f9f9;
-    border-style: inset;
-    border-color: #dfaf1f;
-    border-radius: 3%;
-    box-shadow: 0px 0px 12px rgba(71, 20, 20, 0.08);
-  }
-  .helmet {
-    width: 50%;
-    height: auto;
-    margin-left: 26%;
-    margin-top: 10%;
-  }
-  .start {
-    font-family: Poppins-Regular;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    text-align: center;
-  }
-  #penultimo {
-    background-color: #e8e8e8;
-    width: 100%;
-    height: 58vh;
+    width: 300px;
+    height: 300px;
   }
   h5 {
-    position: absolute;
-    font-family: Poppins-Regular;
-    font-style: normal;
-    font-weight: 700;
     font-size: 32px;
-    margin-left: 10%;
-    margin-top: 5%;
-    width: 19%;
-    height: 5%;
-  }
-  #equipe {
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 10%;
-    font-family: DMSans-Regular;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    margin-left: 10%;
-    width: 24%;
-  }
-  #whatsapfinal {
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 19%;
-    width: 4%;
-  }
-  #construtor {
-    position: relative;
-    margin-left: 45%;
-    max-width: 40%;
-    height: auto;
-  }
-  footer {
-    background-color: #59814e;
-    width: 100%;
-    height: 30vh;
-  }
-  #logofinal {
-    width: 10%;
-    margin-left: 10%;
-    margin-top: 2%;
-  }
-  .direitos {
-    font-family: DMSans-Regular;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    margin-left: 10%;
-    margin-top: 1.5%;
-  }
-  #icones {
-    margin-left: 9%;
-    margin-top: 1.5%;
+    margin-left: 5%;
     width: 30%;
   }
-  .icones {
-    width: 5%;
+  #equipe {
+    font-size: 20px;
+    width: 35%;
     margin-left: 5%;
+  }
+  #whatsapfinal {
+    margin-left: 7%;
+    width: 7%;
+  }
+  #construtor {
+    margin-left: 60%;
+    max-width: 20%;
+  }
+  #logofinal {
+    width: 16%;
+    margin-left: 5%;
+  }
+  .direitos {
+    font-size: 18px;
+    margin-left: 5%;
+  }
+  #icones {
+    margin-left: 5%;
+    margin-top: 1.5%;
+    width: 40%;
+  }
+  .icones {
+    width: 6%;
   }
 }
