@@ -535,19 +535,28 @@ li {
   #btn-mobile {
     display: none;
   }
-  nav {
-    text-align: center;
-    margin-top: 2.8%;
-    margin-left: 0%;
+  #menu1 {
+    width: 100%;
+    right: initial;
+    transition: none;
+    z-index: initial;
+    height: initial;
+    visibility: initial;
+    overflow-y: initial;
+    display: flex;
+    justify-content: space-around;
+  }
+  #menu1 a {
+    width: 100%;
+    margin: 48px;
+    border-bottom: unset; 
   }
   li {
-    font-family: DMSans-Regular;
-    display: inline;
-    padding: 3%;
+    font-family: Poppins-Regular;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
+    line-height: 45px;
   }
   h1 {
     top: 30%;
@@ -696,7 +705,7 @@ li {
     position: absolute;
     text-align: center;
     top: 15%;
-    margin-left: 45%;
+    margin-left: 5%;
   }
   ul {
     font-family: DMSans-Regular;
