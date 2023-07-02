@@ -22,6 +22,10 @@
   width: 32%;
   top: 5%;
   left: 5%;
+  animation: transform 0.3s ease;
+}
+#logotipo:hover {
+  transform: scale(1.1);
 }
 h1 {
   position: absolute;
@@ -53,6 +57,10 @@ h1 {
   width: 40%;
   height: auto;
   left: 29%;
+  animation: transform 0.3s ease;
+}
+#whatsapinicio:hover {
+  transform: scale(1.1);
 }
 #eletrica {
   width: 100%;
@@ -213,6 +221,10 @@ h5 {
 #whatsapfinal {
   margin-left: 5%;
   width: 18%;
+  transition: transform 0.3s ease;
+}
+#whatsapfinal:hover {
+  transform: scale(1.1);
 }
 #construtor {
   margin-left: 45%;
@@ -229,6 +241,10 @@ footer {
   width: 40%;
   margin-left: 5%;
   margin-top: 5%;
+  animation: transform 0.3s ease;
+}
+#logofinal:hover {
+  transform: scale(1.1);
 }
 .direitos {
   font-family: DMSans-Regular;
@@ -244,10 +260,14 @@ footer {
   margin-top: 3%;
   width: 95%;
 }
+.icones:hover {
+  transform: scale(1.1);
+}
 .icones {
   width: 7%;
   margin-left: 5%;
   margin-top: 2%;
+  transition: transform 0.3s ease;
 }
 /*inicio menu responsivo*/
 nav {
