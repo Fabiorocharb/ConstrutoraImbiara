@@ -198,6 +198,43 @@ h2 {
   font-size: 15px;
   text-align: center;
 }
+footer {
+  background-color: #59814e;
+  width: 100%;
+  height: 30vh;
+}
+#logofinal {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+  animation: transform 0.3s ease;
+}
+#logofinal:hover {
+  transform: scale(1.1);
+}
+.direitos {
+  font-family: DMSans-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 5%;
+  margin-top: 1.5%;
+}
+#icones {
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 95%;
+}
+.icones:hover {
+  transform: scale(1.1);
+}
+.icones {
+  width: 7%;
+  margin-left: 5%;
+  margin-top: 2%;
+  transition: transform 0.3s ease;
+}
 @media (min-width: 390px) {
   #texto {
     line-height: 30px;
@@ -253,6 +290,19 @@ h2 {
   }
   .profissao {
     font-size: 20px;
+  }
+  #logofinal {
+    width: 25%;
+  }
+  .direitos {
+    font-size: 17px;
+  }
+  #icones {
+    width: 50%;
+  }
+  .icones {
+    width: 8%;
+    margin-left: 6%;
   }
 }
 @media (min-width: 1024px) {
@@ -314,6 +364,25 @@ h2 {
     left: 15%;
     width: 8%;
   }
+  footer {
+    width: 100%;
+    height: 40vh;
+  }
+  #logofinal {
+    width: 16%;
+    margin-left: 5%;
+  }
+  .direitos {
+    font-size: 18px;
+    margin-left: 5%;
+  }
+  #icones {
+    margin-left: 5%;
+    width: 40%;
+  }
+  .icones {
+    width: 6%;
+  }
 }
 @media (min-width: 1280px) {
   #logotipo {
@@ -326,6 +395,26 @@ h2 {
   }
   #texto {
     left: 12%;
+  }
+  footer {
+    width: 100%;
+    height: 40vh;
+  }
+  #logofinal {
+    width: 16%;
+    margin-left: 5%;
+  }
+  .direitos {
+    font-size: 18px;
+    margin-left: 5%;
+  }
+  #icones {
+    margin-left: 5%;
+
+    width: 40%;
+  }
+  .icones {
+    width: 6%;
   }
 }
 @media (min-width: 1920px) {
@@ -345,5 +434,33 @@ h2 {
   }
   #whatsap {
     width: 5%;
+  }
+  footer {
+    background-color: #59814e;
+    width: 100%;
+    height: 30vh;
+  }
+  #logofinal {
+    width: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  .direitos {
+    font-family: DMSans-Regular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-left: 10%;
+    margin-top: 1.5%;
+  }
+  #icones {
+    margin-left: 9%;
+    margin-top: 1.5%;
+    width: 30%;
+  }
+  .icones {
+    width: 5%;
+    margin-left: 5%;
   }
 }
