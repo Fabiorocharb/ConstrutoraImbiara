@@ -20,7 +20,7 @@
 #logotipo {
   position: absolute;
   width: 32%;
-  top: 5%;
+  top: 7%;
   left: 5%;
   animation: transform 0.3s ease;
 }
@@ -30,7 +30,8 @@
 h1 {
   position: absolute;
   top: 20%;
-  left: 8%;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 700;
@@ -38,11 +39,13 @@ h1 {
   line-height: 32px;
   color: #fff;
   text-align: center;
+  width: 90%;
 }
 #construir {
   position: absolute;
   top: 79%;
-  left: 9%;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: DMSans-Regular;
   font-style: normal;
   font-weight: 400;
@@ -50,13 +53,15 @@ h1 {
   line-height: 23px;
   color: #fff;
   text-align: center;
+  width: 90%;
 }
 #whatsapinicio {
   position: absolute;
   top: 90%;
   width: 40%;
   height: auto;
-  left: 29%;
+  left: 50%;
+  margin-left: -20%;
   animation: transform 0.3s ease;
 }
 #whatsapinicio:hover {
@@ -124,11 +129,13 @@ h3 {
   font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 23px;
   width: 90%;
   color: black;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .produtos {
   margin-left: 15%;
@@ -171,8 +178,11 @@ h4 {
   font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 23px;
   margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .quadros {
   width: 220px;
@@ -203,12 +213,13 @@ h4 {
   width: 100%;
 }
 h5 {
+  padding-top: 5%;
   font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-bottom: 5%;
 }
 #equipe {
   font-family: DMSans-Regular;
@@ -233,7 +244,12 @@ h5 {
   height: auto;
 }
 footer {
-  background-image: radial-gradient(circle at 50% -20.71%, #97bdff 0, #3c78f2 50%, #003886 100%);
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #97bdff 0,
+    #3c78f2 50%,
+    #003886 100%
+  );
   width: 100%;
   height: 30vh;
 }
@@ -355,11 +371,9 @@ li {
 
 @media (min-width: 360px) {
   h1 {
-    left: 13%;
     top: 22%;
   }
   #construir {
-    left: 13%;
     top: 82%;
   }
   #whatsapinicio {
@@ -383,6 +397,9 @@ li {
   #menu.active #menu1 {
     height: calc(100vh - 380px);
   }
+  #logofinal {
+    width: 35%;
+  }
 }
 @media (min-width: 375px) {
   #construir {
@@ -396,7 +413,10 @@ li {
   }
   #menu.active #menu1 {
     height: calc(100vh - 275px);
-}
+  }
+  #logofinal {
+    width: 35%;
+  }
 }
 @media (min-width: 390px) {
   #construir {
@@ -413,43 +433,44 @@ li {
   }
 }
 @media (min-width: 414px) {
-  h1 {
-    left: 18%;
+  #logotipo {
+    left: 6%;
   }
   #whatsapinicio {
     top: 92%;
   }
   #construir {
     top: 84%;
-    left: 18%;
   }
   #construtor {
     max-width: 43.5%;
   }
+  #btn-mobile {
+    margin-top: 32%;
+  }
   #menu.active #menu1 {
     height: calc(100vh - 380px);
-}
+  }
 }
 @media (min-width: 768px) {
   #logotipo {
-    width: 20%;
+    width: 25%;
+    left: 8%;
   }
   h1 {
     top: 22%;
-    left: 23%;
     font-size: 34px;
     line-height: 43px;
   }
   #construir {
     top: 80%;
-    left: 27%;
     font-size: 22px;
     line-height: 26px;
   }
   #whatsapinicio {
     top: 87%;
     width: 30%;
-    left: 35%;
+    left: 55%;
   }
   h2 {
     width: 60%;
@@ -533,11 +554,15 @@ li {
   }
   #menu.active #menu1 {
     height: calc(100vh - 580px);
-}
+  }
+  #btn-mobile {
+    margin-left: 150%;
+    margin-top: 50%;
+  }
 }
 @media (min-width: 1024px) {
   #logotipo {
-    width: 15%;
+    width: 20%;
     left: 5%;
     top: 12%;
   }
@@ -569,7 +594,7 @@ li {
   #menu1 a {
     width: 100%;
     margin: 48px;
-    border-bottom: unset; 
+    border-bottom: unset;
   }
   li {
     font-family: Poppins-Regular;
@@ -580,14 +605,12 @@ li {
   }
   h1 {
     top: 30%;
-    left: 5%;
     text-align: left;
     font-size: 30px;
     line-height: 54px;
   }
   #construir {
     top: 45%;
-    left: 5%;
     font-size: 18px;
     line-height: 30px;
     text-align: left;
@@ -595,7 +618,7 @@ li {
   #whatsapinicio {
     top: 55%;
     width: 20%;
-    left: 5%;
+    left: 25%;
   }
   #eletrica {
     width: 50%;
@@ -755,14 +778,12 @@ li {
   }
   h1 {
     top: 30%;
-    left: 5%;
     text-align: left;
     font-size: 39px;
     line-height: 54px;
   }
   #construir {
     top: 45%;
-    left: 5%;
     font-size: 22px;
     line-height: 23px;
     text-align: left;
@@ -770,7 +791,7 @@ li {
   #whatsapinicio {
     top: 55%;
     width: 20%;
-    left: 5%;
+    left: 25%;
   }
   #eletrica {
     width: 50%;
@@ -887,17 +908,19 @@ li {
     font-size: 15px;
   }
   h1 {
-    left: 15%;
-    font-size: 35px;
+    left: 30.5%;
+    font-size: 38px;
     line-height: 54px;
+    width: 30%;
   }
   #construir {
-    left: 15.4%;
-    font-size: 17px;
+    left: 25.5%;
+    font-size: 22px;
     line-height: 25px;
+     width: 20%;
   }
   #whatsapinicio {
-    left: 15%;
+    left: 36%;
     width: 10%;
   }
   h2 {
@@ -934,12 +957,14 @@ li {
     font-size: 28px;
     top: 10%;
     left: 10%;
+ 
   }
   .laje {
     font-size: 16px;
   }
   .btnlaje {
     padding: 1.5%;
+
   }
   aside {
     width: 100%;
@@ -958,16 +983,16 @@ li {
     height: 58vh;
   }
   h5 {
-    position: absolute;
+    padding: 2%;
     font-size: 32px;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 5%;
-    width: 19%;
+    width: 30%;
   }
   #equipe {
     position: absolute;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: -5%;
     font-size: 20px;
     line-height: 28px;
     width: 24%;
@@ -975,14 +1000,14 @@ li {
   #whatsapfinal {
     position: absolute;
     margin-left: 10%;
-    margin-top: 19%;
+    margin-top: 4%;
     width: 4%;
   }
   #construtor {
     position: relative;
-    margin-left: 55%;
-    max-width: 14%;
-    margin-top: 3.5%;
+    margin-left: 50%;
+    width: 14%;
+    margin-top: -8%;
   }
   footer {
     background-color: #59814e;
@@ -1002,6 +1027,7 @@ li {
     line-height: 20px;
     margin-left: 10%;
     margin-top: 1.5%;
+    width: 20%;
   }
   #icones {
     margin-left: 9%;
