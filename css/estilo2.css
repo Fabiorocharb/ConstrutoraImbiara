@@ -235,6 +235,12 @@ footer {
   margin-top: 2%;
   transition: transform 0.3s ease;
 }
+@media (min-width: 360px) {
+ 
+  #logofinal {
+    width: 35%;
+  }
+}
 @media (min-width: 390px) {
   #texto {
     line-height: 30px;
@@ -394,14 +400,15 @@ footer {
     top: 7%;
   }
   #texto {
-    left: 12%;
+    left: 20%;
+    width: 50%;
   }
   footer {
     width: 100%;
     height: 40vh;
   }
   #logofinal {
-    width: 16%;
+    width: 15%;
     margin-left: 5%;
   }
   .direitos {
@@ -431,6 +438,7 @@ footer {
   }
   #texto {
     font-size: 22px;
+    width: 50%;
   }
   #whatsap {
     width: 5%;
