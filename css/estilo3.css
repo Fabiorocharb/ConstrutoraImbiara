@@ -32,19 +32,22 @@ nav {
   position: absolute;
   left: 60%;
   top: 5%;
+  z-index: 1000;
 }
 #menu1 {
-  display: block;
   position: absolute;
-  width: 450%;
-  top: auto;
-  right: 10%;
+  display: block;
+  width: 100vw;
+  top: 45px;
+  right: 0px;
   background: #f9f9f9;
   transition: 0.6s;
   z-index: 1000;
-  height: auto;
+  height: 0;
   visibility: hidden;
   overflow-y: hidden;
+  left: 0%;
+  transform: translateX(-60%);
 }
 #menu1 a {
   padding: 1rem 0;
@@ -53,18 +56,18 @@ nav {
 }
 li {
   font-family: Poppins-Regular;
-  font-size: 12px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: 45px;
   color: #0f241d;
-  display: flex;
   flex-direction: column;
-  padding: 2%;
+  display: flex;
+  padding: 7%;
   text-align: center;
 }
 #menu.active #menu1 {
-  height: calc(100vh - 128px);
+  height: calc(100vh - 70px);
   visibility: visible;
   overflow-y: auto;
 }
@@ -218,6 +221,11 @@ footer {
     top: 6%;
   }
 }
+@media (min-width: 375px) {
+  #logofinal {
+    width: 35%;
+  }
+}
 @media (min-width: 414px) {
   .container {
     top: 55%;
@@ -226,14 +234,7 @@ footer {
 }
 @media (min-width: 768px) {
   #logotipo {
-    width: 30%;
-  }
-  nav { 
-    left: 70%;
-    top: 7%;
-  }
-  #menu1 {
-    width: 900%;
+    width: 29%;
   }
   .direitos {
     font-size: 17px;
@@ -248,8 +249,9 @@ footer {
   li {
     font-size: 19px;
   }
-  #menu.active #menu1 {
-    height: calc(100vh - 520px);
+  nav {
+    left: 60%;
+    top: 7%;
   }
   #hamburguer {
     width: 40px;
@@ -294,13 +296,14 @@ footer {
 @media (min-width: 1024px) {
   #logotipo {
     width: 20%;
-    top: 10%;
+    left: 5%;
+    top: 12%;
   }
   #btn-mobile {
     display: none;
   }
   a {
-    color:black;
+    color: black;
     text-decoration: none;
     transition: 0.3s;
   }
@@ -310,9 +313,8 @@ footer {
     cursor: pointer;
   }
   nav {
+    top: 0%;
     left: 60%;
-    top: 4%;
-    list-style-type: none;
   }
   #menu1 {
     width: 100%;
@@ -381,18 +383,15 @@ footer {
 @media (min-width: 1280px) {
   #logotipo {
     width: 15%;
+    left: 5%;
     top: 12%;
-    left: 7%;
   }
   nav {
-    top: 7%;
-  }
-  footer {
-    width: 100%;
-    height: 40vh;
+    top: 2%;
+    left: 65%;
   }
   #logofinal {
-    width: 16%;
+    width: 14%;
     margin-left: 5%;
   }
   .direitos {
